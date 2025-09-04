@@ -19,6 +19,6 @@
 ---
 include:
   - board: assimilator-bt
-    shield: imprint_left
+    shield: cyboard_left
   - board: assimilator-bt
-    shield: imprint_right
+    shield: cyboard_right
