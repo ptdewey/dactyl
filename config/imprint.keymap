@@ -19,8 +19,8 @@
                 &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G                &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &kp ENTER
                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B              &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                         &none  &none  &none  &none                                 &none  &none  &none  &none
-                                &kp LEFT_ALT  &kp LCTRL  &mo 1  &kp SPACE  &mo 2  &kp LEFT_GUI
-            >;
+                                &kp LCTRL  &mo 1  &kp LALT &kp LGUI  &kp SPACE &mo 2  
+             >;
         };
 
         lower_layer {
@@ -30,18 +30,18 @@
                 &trans  &kp UNDERSCORE  &kp MINUS  &kp PLUS  &kp EQUAL              &kp LPAR  &kp RPAR  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp BACKSPACE  &kp COLON  &trans 
                 &trans  &trans  &trans  &kp LT  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GT  &trans  &trans  &trans
                        &trans  &trans  &trans  &trans                                               &trans  &trans  &trans &trans
-                                            &trans  &trans  &trans    &trans  &mo 3  &kp RIGHT_ALT
+                                            &trans  &trans  &trans    &kp RIGHT_ALT &kp SPACE  &mo 4 
             >;
         };
 
         raise_layer {
             display-name = "Raise";
             bindings = <
-                &trans  &trans  &trans  &trans  &trans  &trans                         &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans                         &trans  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp KP_EQUAL  
-                &trans  &trans  &trans  &trans  &trans  &trans                         &trans  &kp N1  &kp N2  &kp N3  &kp SLASH  &trans  
+                &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR &kp PERCENT         &kp CARAT  &kp STAR  &kp AMPS  &kp LPAR  &kp RPAR  &kp PIPE
+                &trans  &trans  &trans  &trans  &trans  &trans                         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  
+                &trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  
                 &none  &none  &none  &trans                                                           &none  &none  &none  &none
-                                                &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans  &mo 3  &trans  &trans  &trans  &trans
             >;
         };
 
