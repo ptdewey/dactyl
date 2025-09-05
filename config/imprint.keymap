@@ -54,3 +54,7 @@
         };
     };
 };
+
+&dactyl_single_arc_number_row {
+    row-offset = <7>;
+};
