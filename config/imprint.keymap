@@ -57,7 +57,3 @@
         };
     };
 };
-
-&dactyl_single_arc_letters_only {
-    row-offset = <7>;
-};
