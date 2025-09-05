@@ -4,7 +4,7 @@
 
 / {
     chosen {
-        zmk,matrix_transform = &dactyl_single_arc_number_row;
+        zmk,matrix_transform = &dactyl_single_arc_letters_only;
     };
 
     keymap {
