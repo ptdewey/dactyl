@@ -37,7 +37,7 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-                &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR &kp PERCENT         &kp CARAT  &kp STAR  &kp AMPS  &kp LPAR  &kp RPAR  &kp PIPE
+                &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR &kp PERCENT         &kp CARET  &kp AMPERSAND &kp STAR &kp LPAR  &kp RPAR  &kp PIPE
                 &trans  &trans  &trans  &trans  &trans  &trans                         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  
                 &trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  
                 &none  &none  &none  &trans                                                           &none  &none  &none  &none
